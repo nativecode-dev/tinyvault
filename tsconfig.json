@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {},
+    "typeRoots": [
+      "node_modules/@types",
+      "**/node_modules/@types"
+    ]
+  },
+  "extends": "./tsconfig.settings",
+  "include": [
+    "**/src/**/*.ts"
+  ]
+}

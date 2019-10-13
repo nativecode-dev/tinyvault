@@ -1,0 +1,39 @@
+{
+  "tasks": {
+    "bootstrap": [
+      "lerna bootstrap"
+    ],
+    "build": [
+      "[bootstrap]",
+      "[lint]",
+      "lerna run build"
+    ],
+    "ci:compile": [
+      "[build]"
+    ],
+    "ci:publish": [
+      "[ci:compile]"
+    ],
+    "ci:test": [
+      "[ci:compile]",
+      "nyc mocha --opts mocha.opts --reporter spec"
+    ],
+    "clean": [
+      "rimraf packages/*/bin",
+      "rimraf packages/*/lib",
+      "rimraf **/*.tsbuildinfo"
+    ],
+    "lint": [
+      "jsonsort *.json",
+      "jsonsort executables/*/*.json",
+      "jsonsort packages/*/*.json"
+    ],
+    "test": [
+      "[build]",
+      "nyc mocha --opts mocha.opts"
+    ],
+    "watch": [
+      "lerna run --parallel watch"
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "name": "@nofrills/tinyvault-lib",
+  "version": "0.0.0",
+  "description": "Tiny Vault Core Library",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nativecode-dev/tinyvault.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nativecode-dev/tinyvault/issues"
+  },
+  "homepage": "https://github.com/nativecode-dev/tinyvault/tree/master/packages/tinyvault-lib#readme",
+  "author": "opensource@nativecode.com",
+  "keywords": [
+    "tinyvault"
+  ],
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "directories": {
+    "lib": "lib",
+    "test": "specs"
+  },
+  "scripts": {
+    "build": "tsc --project tsconfig.json",
+    "watch": "tsc --project tsconfig.json --watch"
+  },
+  "dependencies": {
+    "@nofrills/lincoln-debug": "^6.0.0",
+    "@nofrills/scrubs": "^6.0.2",
+    "deepmerge": "^4.1.1",
+    "key-store": "^1.1.0"
+  },
+  "peerDependencies": {
+    "pouchdb": "^7.1.1",
+    "pouchdb-adapter-http": "^7.1.1",
+    "pouchdb-adapter-memory": "^7.1.1",
+    "pouchdb-find": "^7.1.1",
+    "pouchdb-upsert": "^2.2.0"
+  },
+  "devDependencies": {
+    "@nofrills/lincoln": "^6.0.0",
+    "@types/chai": "^4.2.3",
+    "@types/chai-as-promised": "^7.1.2",
+    "@types/deepmerge": "^2.2.0",
+    "@types/mocha": "^5.2.7",
+    "@types/pouchdb": "^6.4.0",
+    "@types/pouchdb-adapter-http": "^6.1.3",
+    "@types/pouchdb-adapter-memory": "^6.1.3",
+    "@types/pouchdb-find": "^6.3.4",
+    "@types/pouchdb-upsert": "^2.2.6",
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "typescript": "^3.6.4"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "name": "@nofrills/tinyvault",
+  "version": "0.0.0",
+  "description": "Tiny Vault",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nativecode-dev/tinyvault.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nativecode-dev/tinyvault/issues"
+  },
+  "homepage": "https://github.com/nativecode-dev/tinyvault#readme",
+  "author": "opensource@nativecode.com",
+  "keywords": [
+    "vault",
+    "secrets",
+    "portable"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "build": "cli-tasks build",
+    "clean": "cli-tasks clean",
+    "lerna": "lerna",
+    "task": "cli-tasks",
+    "test": "cli-tasks test",
+    "tinyvault": "node packages/tinyvault/bin/index.js",
+    "tinyvault:ts": "ts-node packages/tinyvault/src/index.ts",
+    "watch": "cli-tasks watch"
+  },
+  "nyc": {
+    "all": true,
+    "exclude": [
+      "node_modules",
+      "**/specs/**/*.spec.ts"
+    ],
+    "extension": [
+      ".ts"
+    ],
+    "include": [
+      "packages/*/src/**/*.ts"
+    ],
+    "instrument": true,
+    "report-dir": ".cache/coverage",
+    "reporter": "text",
+    "sourceMap": true,
+    "temp-directory": ".cache/nyc"
+  },
+  "devDependencies": {
+    "@nofrills/tasks": "^9.0.2",
+    "@types/chai": "^4.2.3",
+    "@types/node": "^12.7.12",
+    "chai": "^4.2.0",
+    "json-sort-cli": "^1.14.4",
+    "lerna": "^3.17.0",
+    "mocha": "^6.2.1",
+    "npm-check": "^5.9.0",
+    "nyc": "^14.1.1",
+    "prettier": "^1.18.2",
+    "rimraf": "^3.0.0",
+    "ts-node": "^8.4.1",
+    "tslint": "^5.20.0",
+    "tslint-config-standard": "^8.0.1",
+    "tslint-no-unused-expression-chai": "^0.1.4",
+    "typescript": "^3.6.4"
+  }
+}
