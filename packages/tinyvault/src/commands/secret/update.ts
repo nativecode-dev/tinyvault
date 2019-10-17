@@ -60,7 +60,7 @@ export class SecretUpdateCommand implements CommandModule {
 
       await vault.write(selected.key, credentials.username, credentials.password)
     } else {
-      await vault.write(args.key, args.username, args.password!)
+      await vault.write(args.key, args.username!, args.password!)
     }
   }
 }
