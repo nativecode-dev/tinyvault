@@ -8,6 +8,10 @@
       "[lint]",
       "[compile]"
     ],
+    "canary": [
+      "[test:ci]",
+      "lerna publish --conventional-commits --conventional-graduate --canary --yes"
+    ],
     "clean": [
       "rimraf packages/*/bin",
       "rimraf packages/*/lib",
@@ -21,6 +25,14 @@
       "jsonsort executables/*/*.json",
       "jsonsort packages/*/*.json"
     ],
+    "prerelease": [
+      "[test:ci]",
+      "lerna publish --conventional-commits --conventional-prerelease --yes"
+    ],
+    "release": [
+      "[test:ci]",
+      "lerna publish --conventional-commits --yes"
+    ],
     "test": [
       "[build]",
       "nyc mocha --opts mocha.opts"
@@ -33,18 +45,6 @@
     ],
     "watch": [
       "lerna run --parallel watch"
-    ],
-    "canary": [
-      "[test:ci]",
-      "lerna publish --conventional-commits --conventional-graduate --canary --yes"
-    ],
-    "prerelease": [
-      "[test:ci]",
-      "lerna publish --conventional-commits --conventional-prerelease --yes"
-    ],
-    "release": [
-      "[test:ci]",
-      "lerna publish --conventional-commits --yes"
     ]
   }
 }

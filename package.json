@@ -20,16 +20,16 @@
   "main": "index.js",
   "scripts": {
     "build": "cli-tasks build",
+    "canary": "cli-tasks canary",
     "clean": "cli-tasks clean",
     "lerna": "lerna",
+    "pre-release": "cli-tasks prerelease",
+    "release": "cli-tasks release",
     "task": "cli-tasks",
     "test": "cli-tasks test",
     "tinyvault": "node packages/tinyvault/bin/index.js",
     "tinyvault:ts": "ts-node packages/tinyvault/src/index.ts",
-    "watch": "cli-tasks watch",
-    "canary": "cli-tasks canary",
-    "pre-release": "cli-tasks prerelease",
-    "release": "cli-tasks release"
+    "watch": "cli-tasks watch"
   },
   "nyc": {
     "all": true,
