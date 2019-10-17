@@ -9,8 +9,13 @@
       "[compile]"
     ],
     "canary": [
+      "[ci]",
       "[test:ci]",
-      "lerna publish --conventional-commits --conventional-graduate --canary --yes"
+      "bash .citools/lerna-publish canary"
+    ],
+    "ci": [
+      ".citools/setup-git ${BUILD_REPO_BRANCH} ${BUILD_REPO_GIT} ${BUILD_REPO_EMAIL}",
+      ".citools/setup-ssh ${BUILD_REPO_DOMAIN} ${BUILD_REPO_SSHKEY_PATH} ${BUILD_REPO_DOMAIN_SSH}"
     ],
     "clean": [
       "rimraf packages/*/bin",
@@ -27,12 +32,14 @@
       "tslint --project packages/tinyvault-lib/tsconfig.json --config tslint.json"
     ],
     "prerelease": [
+      "[ci]",
       "[test:ci]",
-      "lerna publish --conventional-commits --conventional-prerelease --yes"
+      "bash .citools/lerna-publish prerelease"
     ],
     "release": [
+      "[ci]",
       "[test:ci]",
-      "lerna publish --conventional-commits --yes"
+      "bash .citools/lerna-publish release"
     ],
     "test": [
       "[build]",
