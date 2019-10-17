@@ -3,6 +3,9 @@
   "version": "0.1.1-next.0",
   "description": "Tiny Vault CLI",
   "license": "MIT",
+  "engines": {
+    "node": ">=8.0.0"
+  },
   "repository": {
     "type": "git",
     "url": "git@gitssh.nativecode.net:opensource/tinyvault.git"
@@ -35,9 +38,6 @@
     "build": "cli-tasks build",
     "watch": "cli-tasks watch"
   },
-  "pkg": {
-    "scripts": "bin/**/*.js"
-  },
   "dependencies": {
     "@nofrills/fs": "^7.0.0",
     "@nofrills/lincoln": "^6.0.0",
@@ -61,11 +61,11 @@
     "@types/pouchdb-upsert": "^2.2.6",
     "@types/yargs": "^13.0.3",
     "@types/yargs-interactive": "^2.1.0",
+    "@zeit/ncc": "^0.20.5",
     "chai": "^4.2.0",
     "chai-as-promised": "^7.1.1",
+    "cross-env": "^6.0.3",
     "nexe": "^3.3.2",
-    "pkg": "^4.4.0",
-    "rollup": "^1.24.0",
     "typescript": "^3.6.4"
   }
 }

@@ -2,8 +2,8 @@
   "tasks": {
     "build": [
       "tsc --project tsconfig.json",
-      "rollup bin/index.js --file dist/bundle.js --format cjs",
-      "nexe dist/bundle.js -o ../../binaries/tinyvault"
+      "ncc build bin/index.js --minify --out dist",
+      "nexe dist/index.js --output ../../binaries/tinyvault --target linux-x64"
     ],
     "watch": [
       "tsc --project tsconfig.json --watch"

@@ -1,4 +1,4 @@
-import { Arguments, Argv, CommandModule, PositionalOptions } from 'yargs'
+import { Arguments, Argv, CommandModule } from 'yargs'
 
 import SecretCommand from './secret'
 import ConfigureCommand from './configure'
