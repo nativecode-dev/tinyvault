@@ -23,6 +23,9 @@ continuous:
     - /fix\/.*/
   script:
     - npm run canary
+  artifacts:
+    paths:
+      - packages/tinyvault/binaries
 
 prerelease:
   stage: pre-release
@@ -30,6 +33,9 @@ prerelease:
     - develop
   script:
     - npm run pre-release
+  artifacts:
+    paths:
+      - packages/tinyvault/binaries
 
 release:
   stage: release
@@ -37,3 +43,6 @@ release:
     - master
   script:
     - npm run release
+  artifacts:
+    paths:
+      - packages/tinyvault/binaries

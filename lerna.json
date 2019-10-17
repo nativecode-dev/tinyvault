@@ -21,7 +21,7 @@
         "lerna.json",
         "LICENSE",
         "mocha.opts",
-        "package.json",
+        "package-lock.json",
         "tasks.json",
         "tsconfig.json",
         "tsconfig.settings.json",
