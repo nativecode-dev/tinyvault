@@ -22,7 +22,9 @@
     ],
     "lint": [
       "jsonsort *.json",
-      "jsonsort packages/*/*.json"
+      "jsonsort packages/*/*.json",
+      "tslint --project packages/tinyvault/tsconfig.json --config tslint.json",
+      "tslint --project packages/tinyvault-lib/tsconfig.json --config tslint.json"
     ],
     "prerelease": [
       "[test:ci]",

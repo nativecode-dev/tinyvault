@@ -21,20 +21,22 @@ export class SecretShowCommand implements CommandModule {
   async handler(args: Arguments & ShowOptions) {
     const vault = await createVault()
 
-    const result = await interact()
-      .usage('$0 secret show <key>')
-      .interactive({
-        interactive: {
-          default: !args.key,
-        },
-        key: {
-          choices: vault.list(),
-          default: args.key,
-          describe: 'secret',
-          prompt: 'if-no-arg',
-          type: 'list',
-        },
-      })
+    const result = await Promise.resolve(
+      interact()
+        .usage('$0 secret show <key>')
+        .interactive({
+          interactive: {
+            default: !args.key,
+          },
+          key: {
+            choices: vault.list(),
+            default: args.key,
+            describe: 'secret',
+            prompt: 'if-no-arg',
+            type: 'list',
+          },
+        }),
+    )
 
     const secret = vault.read(result.key || args.key)
 

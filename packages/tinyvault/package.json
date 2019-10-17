@@ -29,7 +29,8 @@
     "test": "specs"
   },
   "scripts": {
-    "build": "tsc --project tsconfig.json && cli-shebang",
+    "build": "tsc --project tsconfig.json",
+    "postbuild": "cli-shebang",
     "watch": "tsc --project tsconfig.json --watch"
   },
   "dependencies": {

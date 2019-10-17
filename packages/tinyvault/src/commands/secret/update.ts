@@ -20,43 +20,47 @@ export class SecretUpdateCommand implements CommandModule {
   async handler(args: Arguments & UpdateOptions) {
     const vault = await createVault()
 
-    const selected = await interact().interactive({
-      interactive: {
-        default: !args.key,
-      },
-      key: {
-        choices: vault.list(),
-        default: args.key,
-        describe: 'select secret',
-        prompt: 'always',
-        type: 'list',
-      },
-    })
+    const selected = await Promise.resolve(
+      interact().interactive({
+        interactive: {
+          default: !args.key,
+        },
+        key: {
+          choices: vault.list(),
+          default: args.key,
+          describe: 'select secret',
+          prompt: 'always',
+          type: 'list',
+        },
+      }),
+    )
 
     if (!args.key) {
       const secret = vault.read(selected.key)
 
-      const credentials = await interact().interactive({
-        interactive: {
-          default: !args.key,
-        },
-        username: {
-          default: secret.username,
-          describe: 'username',
-          prompt: 'always',
-          type: 'input',
-        },
-        password: {
-          default: secret.password,
-          describe: 'password',
-          prompt: 'always',
-          type: 'password',
-        },
-      })
+      const credentials = await Promise.resolve(
+        interact().interactive({
+          interactive: {
+            default: !args.key,
+          },
+          username: {
+            default: secret.username,
+            describe: 'username',
+            prompt: 'always',
+            type: 'input',
+          },
+          password: {
+            default: secret.password,
+            describe: 'password',
+            prompt: 'always',
+            type: 'password',
+          },
+        }),
+      )
 
       await vault.write(selected.key, credentials.username, credentials.password)
     } else {
-      await vault.write(args.key!, args.username!, args.password!)
+      await vault.write(args.key, args.username, args.password!)
     }
   }
 }

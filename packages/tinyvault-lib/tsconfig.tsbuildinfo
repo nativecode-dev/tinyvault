@@ -539,7 +539,6 @@
       ],
       "outDir": "./lib",
       "rootDir": "./src",
-      "project": "./tsconfig.json",
       "configFilePath": "./tsconfig.json"
     },
     "referencedMap": {
@@ -1395,212 +1394,6 @@
         "../../node_modules/@types/node/util.d.ts",
         "../../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../../node_modules/@types/node/async_hooks.d.ts": [
-        "../../node_modules/@types/node/util.d.ts",
-        "../../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../../node_modules/@types/node/buffer.d.ts": [
-        "../../node_modules/@types/node/util.d.ts",
-        "../../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../../node_modules/@types/events/index.d.ts": [
-        "../../node_modules/@types/node/util.d.ts",
-        "../../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../../node_modules/@types/node/child_process.d.ts": [
-        "../../node_modules/@types/node/events.d.ts",
-        "../../node_modules/@types/node/net.d.ts",
-        "../../node_modules/@types/node/stream.d.ts",
-        "../../node_modules/@types/node/util.d.ts",
-        "../../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../../node_modules/@types/node/cluster.d.ts": [
-        "../../node_modules/@types/node/child_process.d.ts",
-        "../../node_modules/@types/node/events.d.ts",
-        "../../node_modules/@types/node/net.d.ts",
-        "../../node_modules/@types/node/util.d.ts",
-        "../../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../../node_modules/@types/node/console.d.ts": [
-        "../../node_modules/@types/node/util.d.ts",
-        "../../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../../node_modules/@types/node/constants.d.ts": [
-        "../../node_modules/@types/node/util.d.ts",
-        "../../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../../node_modules/@types/node/crypto.d.ts": [
-        "../../node_modules/@types/node/stream.d.ts",
-        "../../node_modules/@types/node/util.d.ts",
-        "../../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../../node_modules/@types/node/dgram.d.ts": [
-        "../../node_modules/@types/node/net.d.ts",
-        "../../node_modules/@types/node/dns.d.ts",
-        "../../node_modules/@types/node/events.d.ts",
-        "../../node_modules/@types/node/util.d.ts",
-        "../../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../../node_modules/@types/node/dns.d.ts": [
-        "../../node_modules/@types/node/util.d.ts",
-        "../../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../../node_modules/@types/node/domain.d.ts": [
-        "../../node_modules/@types/node/events.d.ts",
-        "../../node_modules/@types/node/util.d.ts",
-        "../../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../../node_modules/@types/node/events.d.ts": [
-        "../../node_modules/@types/node/util.d.ts",
-        "../../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../../node_modules/@types/node/fs.d.ts": [
-        "../../node_modules/@types/node/stream.d.ts",
-        "../../node_modules/@types/node/events.d.ts",
-        "../../node_modules/@types/node/url.d.ts",
-        "../../node_modules/@types/node/util.d.ts",
-        "../../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../../node_modules/@types/node/http.d.ts": [
-        "../../node_modules/@types/node/events.d.ts",
-        "../../node_modules/@types/node/stream.d.ts",
-        "../../node_modules/@types/node/url.d.ts",
-        "../../node_modules/@types/node/net.d.ts",
-        "../../node_modules/@types/node/util.d.ts",
-        "../../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../../node_modules/@types/node/http2.d.ts": [
-        "../../node_modules/@types/node/events.d.ts",
-        "../../node_modules/@types/node/fs.d.ts",
-        "../../node_modules/@types/node/net.d.ts",
-        "../../node_modules/@types/node/stream.d.ts",
-        "../../node_modules/@types/node/tls.d.ts",
-        "../../node_modules/@types/node/url.d.ts",
-        "../../node_modules/@types/node/http.d.ts",
-        "../../node_modules/@types/node/util.d.ts",
-        "../../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../../node_modules/@types/node/https.d.ts": [
-        "../../node_modules/@types/node/tls.d.ts",
-        "../../node_modules/@types/node/events.d.ts",
-        "../../node_modules/@types/node/http.d.ts",
-        "../../node_modules/@types/node/url.d.ts",
-        "../../node_modules/@types/node/util.d.ts",
-        "../../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../../node_modules/@types/node/inspector.d.ts": [
-        "../../node_modules/@types/node/events.d.ts",
-        "../../node_modules/@types/node/util.d.ts",
-        "../../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../../node_modules/@types/node/module.d.ts": [
-        "../../node_modules/@types/node/util.d.ts",
-        "../../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../../node_modules/@types/node/net.d.ts": [
-        "../../node_modules/@types/node/stream.d.ts",
-        "../../node_modules/@types/node/events.d.ts",
-        "../../node_modules/@types/node/dns.d.ts",
-        "../../node_modules/@types/node/util.d.ts",
-        "../../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../../node_modules/@types/node/os.d.ts": [
-        "../../node_modules/@types/node/util.d.ts",
-        "../../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../../node_modules/@types/node/path.d.ts": [
-        "../../node_modules/@types/node/util.d.ts",
-        "../../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../../node_modules/@types/node/perf_hooks.d.ts": [
-        "../../node_modules/@types/node/async_hooks.d.ts",
-        "../../node_modules/@types/node/util.d.ts",
-        "../../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../../node_modules/@types/node/process.d.ts": [
-        "../../node_modules/@types/node/tty.d.ts",
-        "../../node_modules/@types/node/util.d.ts",
-        "../../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../../node_modules/@types/node/punycode.d.ts": [
-        "../../node_modules/@types/node/util.d.ts",
-        "../../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../../node_modules/@types/node/querystring.d.ts": [
-        "../../node_modules/@types/node/util.d.ts",
-        "../../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../../node_modules/@types/node/readline.d.ts": [
-        "../../node_modules/@types/node/events.d.ts",
-        "../../node_modules/@types/node/stream.d.ts",
-        "../../node_modules/@types/node/util.d.ts",
-        "../../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../../node_modules/@types/node/repl.d.ts": [
-        "../../node_modules/@types/node/readline.d.ts",
-        "../../node_modules/@types/node/vm.d.ts",
-        "../../node_modules/@types/node/util.d.ts",
-        "../../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../../node_modules/@types/node/stream.d.ts": [
-        "../../node_modules/@types/node/events.d.ts",
-        "../../node_modules/@types/node/util.d.ts",
-        "../../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../../node_modules/@types/node/string_decoder.d.ts": [
-        "../../node_modules/@types/node/util.d.ts",
-        "../../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../../node_modules/@types/node/timers.d.ts": [
-        "../../node_modules/@types/node/util.d.ts",
-        "../../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../../node_modules/@types/node/tls.d.ts": [
-        "../../node_modules/@types/node/crypto.d.ts",
-        "../../node_modules/@types/node/dns.d.ts",
-        "../../node_modules/@types/node/net.d.ts",
-        "../../node_modules/@types/node/stream.d.ts",
-        "../../node_modules/@types/node/util.d.ts",
-        "../../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../../node_modules/@types/node/trace_events.d.ts": [
-        "../../node_modules/@types/node/util.d.ts",
-        "../../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../../node_modules/@types/node/tty.d.ts": [
-        "../../node_modules/@types/node/net.d.ts",
-        "../../node_modules/@types/node/util.d.ts",
-        "../../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../../node_modules/@types/node/url.d.ts": [
-        "../../node_modules/@types/node/querystring.d.ts",
-        "../../node_modules/@types/node/util.d.ts",
-        "../../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../../node_modules/@types/node/util.d.ts": [
-        "../../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../../node_modules/@types/node/v8.d.ts": [
-        "../../node_modules/@types/node/stream.d.ts",
-        "../../node_modules/@types/node/util.d.ts",
-        "../../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../../node_modules/@types/node/vm.d.ts": [
-        "../../node_modules/@types/node/util.d.ts",
-        "../../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../../node_modules/@types/node/worker_threads.d.ts": [
-        "../../node_modules/@types/node/vm.d.ts",
-        "../../node_modules/@types/node/events.d.ts",
-        "../../node_modules/@types/node/stream.d.ts",
-        "../../node_modules/@types/node/util.d.ts",
-        "../../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../../node_modules/@types/node/zlib.d.ts": [
-        "../../node_modules/@types/node/stream.d.ts",
-        "../../node_modules/@types/node/util.d.ts",
-        "../../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
       "../../node_modules/@types/node/base.d.ts": [
         "../../node_modules/@types/node/globals.d.ts",
         "../../node_modules/@types/node/assert.d.ts",
@@ -1644,171 +1437,11 @@
         "../../node_modules/@types/node/zlib.d.ts",
         "../../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../../node_modules/@types/node/ts3.2/util.d.ts": [
-        "../../node_modules/@types/node/util.d.ts"
-      ],
-      "../../node_modules/@types/node/ts3.2/globals.d.ts": [
-        "../../node_modules/@types/node/globals.d.ts",
-        "../../node_modules/@types/node/util.d.ts",
-        "../../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
       "../../node_modules/@types/node/ts3.2/index.d.ts": [
         "../../node_modules/@types/node/base.d.ts",
         "../../node_modules/@types/node/ts3.2/util.d.ts",
         "../../node_modules/@types/node/ts3.2/globals.d.ts",
         "../../node_modules/@types/node/util.d.ts"
-      ],
-      "./node_modules/@nofrills/lincoln/lib/LogMessageType.d.ts": [
-        "../../node_modules/@types/node/util.d.ts",
-        "../../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "./node_modules/@nofrills/lincoln/lib/Log.d.ts": [
-        "./node_modules/@nofrills/lincoln/lib/LogMessageType.d.ts",
-        "../../node_modules/@types/node/util.d.ts",
-        "../../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "./node_modules/@nofrills/lincoln/lib/LincolnLog.d.ts": [
-        "./node_modules/@nofrills/lincoln/lib/Log.d.ts",
-        "../../node_modules/@types/node/util.d.ts",
-        "../../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "./node_modules/@nofrills/collections/lib/Dictionary.d.ts": [
-        "../../node_modules/@types/node/util.d.ts",
-        "../../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "./node_modules/@nofrills/collections/lib/Indexer.d.ts": [
-        "../../node_modules/@types/node/util.d.ts",
-        "../../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "./node_modules/@nofrills/collections/lib/Registry.d.ts": [
-        "../../node_modules/@types/node/util.d.ts",
-        "../../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "./node_modules/@nofrills/collections/lib/RegistryMap.d.ts": [
-        "./node_modules/@nofrills/collections/lib/Registry.d.ts",
-        "../../node_modules/@types/node/util.d.ts",
-        "../../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "./node_modules/@nofrills/collections/lib/index.d.ts": [
-        "./node_modules/@nofrills/collections/lib/Dictionary.d.ts",
-        "./node_modules/@nofrills/collections/lib/Indexer.d.ts",
-        "./node_modules/@nofrills/collections/lib/Registry.d.ts",
-        "./node_modules/@nofrills/collections/lib/RegistryMap.d.ts",
-        "../../node_modules/@types/node/util.d.ts",
-        "../../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "./node_modules/@nofrills/lincoln/lib/LincolnRegistry.d.ts": [
-        "./node_modules/@nofrills/collections/lib/index.d.ts",
-        "./node_modules/@nofrills/lincoln/lib/Log.d.ts",
-        "../../node_modules/@types/node/util.d.ts",
-        "../../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "./node_modules/@nofrills/lincoln/lib/Options.d.ts": [
-        "./node_modules/@nofrills/lincoln/lib/LincolnRegistry.d.ts",
-        "../../node_modules/@types/node/util.d.ts",
-        "../../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "./node_modules/@nofrills/lincoln/lib/Lincoln.d.ts": [
-        "../../node_modules/@types/node/events.d.ts",
-        "./node_modules/@nofrills/lincoln/lib/LincolnLog.d.ts",
-        "./node_modules/@nofrills/lincoln/lib/Options.d.ts",
-        "../../node_modules/@types/node/ts3.2/index.d.ts",
-        "../../node_modules/@types/node/util.d.ts",
-        "../../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "./node_modules/@nofrills/lincoln/lib/LincolnEvents.d.ts": [
-        "../../node_modules/@types/node/util.d.ts",
-        "../../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "./node_modules/@nofrills/lincoln/lib/index.d.ts": [
-        "./node_modules/@nofrills/lincoln/lib/Lincoln.d.ts",
-        "./node_modules/@nofrills/lincoln/lib/LincolnEvents.d.ts",
-        "./node_modules/@nofrills/lincoln/lib/LincolnLog.d.ts",
-        "./node_modules/@nofrills/lincoln/lib/LincolnRegistry.d.ts",
-        "./node_modules/@nofrills/lincoln/lib/Log.d.ts",
-        "./node_modules/@nofrills/lincoln/lib/LogMessageType.d.ts",
-        "./node_modules/@nofrills/lincoln/lib/Options.d.ts",
-        "../../node_modules/@types/node/util.d.ts",
-        "../../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "./node_modules/@nofrills/lincoln-debug/lib/index.d.ts": [
-        "./node_modules/@nofrills/lincoln/lib/index.d.ts",
-        "../../node_modules/@types/node/util.d.ts",
-        "../../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "./node_modules/@nofrills/scrubs/lib/Scrubs.d.ts": [
-        "../../node_modules/@types/node/util.d.ts",
-        "../../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "./node_modules/@nofrills/scrubs/lib/Scrubbers/ArrayScrubber.d.ts": [
-        "./node_modules/@nofrills/scrubs/lib/Scrubs.d.ts",
-        "../../node_modules/@types/node/util.d.ts",
-        "../../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "./node_modules/@nofrills/scrubs/lib/Scrubbers/KeyValueScrubber.d.ts": [
-        "./node_modules/@nofrills/scrubs/lib/Scrubs.d.ts",
-        "../../node_modules/@types/node/util.d.ts",
-        "../../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "./node_modules/@nofrills/scrubs/lib/Scrubbers/ObjectScrubber.d.ts": [
-        "./node_modules/@nofrills/scrubs/lib/Scrubs.d.ts",
-        "../../node_modules/@types/node/util.d.ts",
-        "../../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "./node_modules/@nofrills/scrubs/lib/Scrubbers/UrlScrubber.d.ts": [
-        "./node_modules/@nofrills/scrubs/lib/Scrubs.d.ts",
-        "../../node_modules/@types/node/util.d.ts",
-        "../../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "./node_modules/@nofrills/scrubs/lib/Scrubbers/index.d.ts": [
-        "./node_modules/@nofrills/scrubs/lib/Scrubbers/ArrayScrubber.d.ts",
-        "./node_modules/@nofrills/scrubs/lib/Scrubbers/KeyValueScrubber.d.ts",
-        "./node_modules/@nofrills/scrubs/lib/Scrubbers/ObjectScrubber.d.ts",
-        "./node_modules/@nofrills/scrubs/lib/Scrubbers/UrlScrubber.d.ts",
-        "../../node_modules/@types/node/util.d.ts",
-        "../../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "./node_modules/@nofrills/scrubs/lib/Registry.d.ts": [
-        "./node_modules/@nofrills/scrubs/lib/Scrubs.d.ts",
-        "../../node_modules/@types/node/util.d.ts",
-        "../../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "./node_modules/@nofrills/scrubs/lib/ScrubsInterceptor.d.ts": [
-        "./node_modules/@nofrills/lincoln/lib/index.d.ts",
-        "../../node_modules/@types/node/util.d.ts",
-        "../../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "./node_modules/@nofrills/scrubs/lib/index.d.ts": [
-        "./node_modules/@nofrills/scrubs/lib/Scrubbers/index.d.ts",
-        "./node_modules/@nofrills/scrubs/lib/Registry.d.ts",
-        "./node_modules/@nofrills/scrubs/lib/Scrubs.d.ts",
-        "./node_modules/@nofrills/scrubs/lib/ScrubsInterceptor.d.ts",
-        "../../node_modules/@types/node/util.d.ts",
-        "../../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "./src/Logger.ts": [
-        "./node_modules/@nofrills/lincoln/lib/index.d.ts"
-      ],
-      "./node_modules/key-store/lib/index.d.ts": [
-        "../../node_modules/@types/node/util.d.ts",
-        "../../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "./node_modules/deepmerge/index.d.ts": [
-        "../../node_modules/@types/node/util.d.ts",
-        "../../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "./node_modules/@types/debug/index.d.ts": [
-        "../../node_modules/@types/node/util.d.ts",
-        "../../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "./node_modules/@types/pouchdb-find/index.d.ts": [
-        "./node_modules/@types/pouchdb-core/index.d.ts",
-        "../../node_modules/@types/node/util.d.ts",
-        "../../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "./node_modules/@types/node-fetch/externals.d.ts": [
-        "../../node_modules/@types/node/util.d.ts",
-        "../../node_modules/@types/node/ts3.2/util.d.ts"
       ],
       "./node_modules/@types/node-fetch/index.d.ts": [
         "../../node_modules/@types/node/http.d.ts",
@@ -1825,87 +1458,30 @@
         "../../node_modules/@types/node/util.d.ts",
         "../../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "./node_modules/@types/pouchdb-adapter-cordova-sqlite/index.d.ts": [
+      "./node_modules/@types/pouchdb-upsert/index.d.ts": [
         "./node_modules/@types/pouchdb-core/index.d.ts",
         "../../node_modules/@types/node/util.d.ts",
         "../../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "./node_modules/@types/pouchdb-adapter-fruitdown/index.d.ts": [
-        "./node_modules/@types/pouchdb-core/index.d.ts",
-        "../../node_modules/@types/node/util.d.ts",
-        "../../node_modules/@types/node/ts3.2/util.d.ts"
+      "./src/TinyVaultRemote.ts": [
+        "./src/TinyVaultOptions.ts"
       ],
-      "./node_modules/@types/pouchdb-adapter-http/index.d.ts": [
-        "./node_modules/@types/pouchdb-core/index.d.ts",
-        "../../node_modules/@types/node/util.d.ts",
-        "../../node_modules/@types/node/ts3.2/util.d.ts"
+      "./src/index.ts": [
+        "./src/TinyVault.ts",
+        "./src/TinyVaultKeyStore.ts",
+        "./src/TinyVaultOptions.ts",
+        "./src/TinyVaultRemote.ts",
+        "./src/TinyVaultSecret.ts"
       ],
-      "./node_modules/@types/pouchdb-adapter-idb/index.d.ts": [
-        "./node_modules/@types/pouchdb-core/index.d.ts",
-        "../../node_modules/@types/node/util.d.ts",
-        "../../node_modules/@types/node/ts3.2/util.d.ts"
+      "./src/TinyVault.ts": [
+        "./node_modules/key-store/lib/index.d.ts",
+        "./src/TinyVaultSecret.ts",
+        "./src/TinyVaultOptions.ts"
       ],
-      "./node_modules/@types/pouchdb-adapter-leveldb/index.d.ts": [
-        "./node_modules/@types/pouchdb-core/index.d.ts",
-        "../../node_modules/@types/node/util.d.ts",
-        "../../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "./node_modules/@types/pouchdb-adapter-localstorage/index.d.ts": [
-        "./node_modules/@types/pouchdb-core/index.d.ts",
-        "../../node_modules/@types/node/util.d.ts",
-        "../../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "./node_modules/@types/pouchdb-adapter-memory/index.d.ts": [
-        "./node_modules/@types/pouchdb-core/index.d.ts",
-        "../../node_modules/@types/node/util.d.ts",
-        "../../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "./node_modules/@types/pouchdb-adapter-websql/index.d.ts": [
-        "./node_modules/@types/pouchdb-core/index.d.ts",
-        "../../node_modules/@types/node/util.d.ts",
-        "../../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "./node_modules/@types/pouchdb-adapter-node-websql/index.d.ts": [
-        "./node_modules/@types/pouchdb-core/index.d.ts",
-        "./node_modules/@types/pouchdb-adapter-websql/index.d.ts",
-        "../../node_modules/@types/node/util.d.ts",
-        "../../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "./node_modules/@types/pouchdb-mapreduce/index.d.ts": [
-        "./node_modules/@types/pouchdb-core/index.d.ts",
-        "../../node_modules/@types/node/util.d.ts",
-        "../../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "./node_modules/@types/pouchdb-replication/index.d.ts": [
-        "./node_modules/@types/pouchdb-core/index.d.ts",
-        "./node_modules/@types/pouchdb-find/index.d.ts",
-        "../../node_modules/@types/node/util.d.ts",
-        "../../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "./node_modules/@types/pouchdb-browser/index.d.ts": [
-        "./node_modules/@types/pouchdb-core/index.d.ts",
-        "./node_modules/@types/pouchdb-adapter-idb/index.d.ts",
-        "./node_modules/@types/pouchdb-adapter-websql/index.d.ts",
-        "./node_modules/@types/pouchdb-adapter-http/index.d.ts",
-        "./node_modules/@types/pouchdb-mapreduce/index.d.ts",
-        "./node_modules/@types/pouchdb-replication/index.d.ts",
-        "../../node_modules/@types/node/util.d.ts",
-        "../../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "./node_modules/@types/pouchdb-http/index.d.ts": [
-        "./node_modules/@types/pouchdb-core/index.d.ts",
-        "./node_modules/@types/pouchdb-adapter-http/index.d.ts",
-        "../../node_modules/@types/node/util.d.ts",
-        "../../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "./node_modules/@types/pouchdb-node/index.d.ts": [
-        "./node_modules/@types/pouchdb-core/index.d.ts",
-        "./node_modules/@types/pouchdb-adapter-leveldb/index.d.ts",
-        "./node_modules/@types/pouchdb-adapter-http/index.d.ts",
-        "./node_modules/@types/pouchdb-mapreduce/index.d.ts",
-        "./node_modules/@types/pouchdb-replication/index.d.ts",
-        "../../node_modules/@types/node/util.d.ts",
-        "../../node_modules/@types/node/ts3.2/util.d.ts"
+      "./src/TinyVaultKeyStore.ts": [
+        "./src/TinyVaultRemote.ts",
+        "./node_modules/key-store/lib/index.d.ts",
+        "./src/TinyVaultSecret.ts"
       ],
       "./node_modules/@types/pouchdb/index.d.ts": [
         "./node_modules/@types/pouchdb-adapter-cordova-sqlite/index.d.ts",
@@ -1926,64 +1502,457 @@
         "../../node_modules/@types/node/util.d.ts",
         "../../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "./node_modules/@types/pouchdb-upsert/index.d.ts": [
+      "./node_modules/@types/pouchdb-node/index.d.ts": [
+        "./node_modules/@types/pouchdb-core/index.d.ts",
+        "./node_modules/@types/pouchdb-adapter-leveldb/index.d.ts",
+        "./node_modules/@types/pouchdb-adapter-http/index.d.ts",
+        "./node_modules/@types/pouchdb-mapreduce/index.d.ts",
+        "./node_modules/@types/pouchdb-replication/index.d.ts",
+        "../../node_modules/@types/node/util.d.ts",
+        "../../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@types/pouchdb-http/index.d.ts": [
+        "./node_modules/@types/pouchdb-core/index.d.ts",
+        "./node_modules/@types/pouchdb-adapter-http/index.d.ts",
+        "../../node_modules/@types/node/util.d.ts",
+        "../../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@types/pouchdb-browser/index.d.ts": [
+        "./node_modules/@types/pouchdb-core/index.d.ts",
+        "./node_modules/@types/pouchdb-adapter-idb/index.d.ts",
+        "./node_modules/@types/pouchdb-adapter-websql/index.d.ts",
+        "./node_modules/@types/pouchdb-adapter-http/index.d.ts",
+        "./node_modules/@types/pouchdb-mapreduce/index.d.ts",
+        "./node_modules/@types/pouchdb-replication/index.d.ts",
+        "../../node_modules/@types/node/util.d.ts",
+        "../../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@types/pouchdb-replication/index.d.ts": [
+        "./node_modules/@types/pouchdb-core/index.d.ts",
+        "./node_modules/@types/pouchdb-find/index.d.ts",
+        "../../node_modules/@types/node/util.d.ts",
+        "../../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@types/pouchdb-mapreduce/index.d.ts": [
         "./node_modules/@types/pouchdb-core/index.d.ts",
         "../../node_modules/@types/node/util.d.ts",
         "../../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "./src/TinyVaultRemote.ts": [
-        "./src/TinyVaultOptions.ts"
+      "./node_modules/@types/pouchdb-adapter-node-websql/index.d.ts": [
+        "./node_modules/@types/pouchdb-core/index.d.ts",
+        "./node_modules/@types/pouchdb-adapter-websql/index.d.ts",
+        "../../node_modules/@types/node/util.d.ts",
+        "../../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "./src/TinyVaultKeyStore.ts": [
-        "./src/TinyVaultRemote.ts",
-        "./node_modules/key-store/lib/index.d.ts",
-        "./src/TinyVaultSecret.ts"
+      "./node_modules/@types/pouchdb-adapter-websql/index.d.ts": [
+        "./node_modules/@types/pouchdb-core/index.d.ts",
+        "../../node_modules/@types/node/util.d.ts",
+        "../../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "./src/TinyVault.ts": [
-        "./node_modules/key-store/lib/index.d.ts",
-        "./src/TinyVaultSecret.ts",
-        "./src/TinyVaultOptions.ts"
+      "./node_modules/@types/pouchdb-adapter-memory/index.d.ts": [
+        "./node_modules/@types/pouchdb-core/index.d.ts",
+        "../../node_modules/@types/node/util.d.ts",
+        "../../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "./src/index.ts": [
-        "./src/TinyVault.ts",
-        "./src/TinyVaultKeyStore.ts",
-        "./src/TinyVaultOptions.ts",
-        "./src/TinyVaultRemote.ts",
-        "./src/TinyVaultSecret.ts"
+      "./node_modules/@types/pouchdb-adapter-localstorage/index.d.ts": [
+        "./node_modules/@types/pouchdb-core/index.d.ts",
+        "../../node_modules/@types/node/util.d.ts",
+        "../../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@types/pouchdb-adapter-leveldb/index.d.ts": [
+        "./node_modules/@types/pouchdb-core/index.d.ts",
+        "../../node_modules/@types/node/util.d.ts",
+        "../../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@types/pouchdb-adapter-idb/index.d.ts": [
+        "./node_modules/@types/pouchdb-core/index.d.ts",
+        "../../node_modules/@types/node/util.d.ts",
+        "../../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@types/pouchdb-adapter-http/index.d.ts": [
+        "./node_modules/@types/pouchdb-core/index.d.ts",
+        "../../node_modules/@types/node/util.d.ts",
+        "../../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@types/pouchdb-adapter-fruitdown/index.d.ts": [
+        "./node_modules/@types/pouchdb-core/index.d.ts",
+        "../../node_modules/@types/node/util.d.ts",
+        "../../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@types/pouchdb-adapter-cordova-sqlite/index.d.ts": [
+        "./node_modules/@types/pouchdb-core/index.d.ts",
+        "../../node_modules/@types/node/util.d.ts",
+        "../../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@types/pouchdb-find/index.d.ts": [
+        "./node_modules/@types/pouchdb-core/index.d.ts",
+        "../../node_modules/@types/node/util.d.ts",
+        "../../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@nofrills/lincoln/lib/Lincoln.d.ts": [
+        "../../node_modules/@types/node/events.d.ts",
+        "./node_modules/@nofrills/lincoln/lib/LincolnLog.d.ts",
+        "./node_modules/@nofrills/lincoln/lib/Options.d.ts",
+        "../../node_modules/@types/node/ts3.2/index.d.ts",
+        "../../node_modules/@types/node/util.d.ts",
+        "../../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@nofrills/lincoln/lib/index.d.ts": [
+        "./node_modules/@nofrills/lincoln/lib/Lincoln.d.ts",
+        "./node_modules/@nofrills/lincoln/lib/LincolnEvents.d.ts",
+        "./node_modules/@nofrills/lincoln/lib/LincolnLog.d.ts",
+        "./node_modules/@nofrills/lincoln/lib/LincolnRegistry.d.ts",
+        "./node_modules/@nofrills/lincoln/lib/Log.d.ts",
+        "./node_modules/@nofrills/lincoln/lib/LogMessageType.d.ts",
+        "./node_modules/@nofrills/lincoln/lib/Options.d.ts",
+        "../../node_modules/@types/node/util.d.ts",
+        "../../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@nofrills/scrubs/lib/ScrubsInterceptor.d.ts": [
+        "./node_modules/@nofrills/lincoln/lib/index.d.ts",
+        "../../node_modules/@types/node/util.d.ts",
+        "../../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@nofrills/scrubs/lib/index.d.ts": [
+        "./node_modules/@nofrills/scrubs/lib/Scrubbers/index.d.ts",
+        "./node_modules/@nofrills/scrubs/lib/Registry.d.ts",
+        "./node_modules/@nofrills/scrubs/lib/Scrubs.d.ts",
+        "./node_modules/@nofrills/scrubs/lib/ScrubsInterceptor.d.ts",
+        "../../node_modules/@types/node/util.d.ts",
+        "../../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/Logger.ts": [
+        "./node_modules/@nofrills/lincoln/lib/index.d.ts"
+      ],
+      "./node_modules/@nofrills/lincoln-debug/lib/index.d.ts": [
+        "./node_modules/@nofrills/lincoln/lib/index.d.ts",
+        "../../node_modules/@types/node/util.d.ts",
+        "../../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../node_modules/@types/node/async_hooks.d.ts": [
+        "../../node_modules/@types/node/util.d.ts",
+        "../../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../node_modules/@types/node/perf_hooks.d.ts": [
+        "../../node_modules/@types/node/async_hooks.d.ts",
+        "../../node_modules/@types/node/util.d.ts",
+        "../../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../node_modules/@types/node/buffer.d.ts": [
+        "../../node_modules/@types/node/util.d.ts",
+        "../../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../node_modules/@types/events/index.d.ts": [
+        "../../node_modules/@types/node/util.d.ts",
+        "../../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../node_modules/@types/node/child_process.d.ts": [
+        "../../node_modules/@types/node/events.d.ts",
+        "../../node_modules/@types/node/net.d.ts",
+        "../../node_modules/@types/node/stream.d.ts",
+        "../../node_modules/@types/node/util.d.ts",
+        "../../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../node_modules/@types/node/cluster.d.ts": [
+        "../../node_modules/@types/node/child_process.d.ts",
+        "../../node_modules/@types/node/events.d.ts",
+        "../../node_modules/@types/node/net.d.ts",
+        "../../node_modules/@types/node/util.d.ts",
+        "../../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../node_modules/@types/node/console.d.ts": [
+        "../../node_modules/@types/node/util.d.ts",
+        "../../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../node_modules/@types/node/constants.d.ts": [
+        "../../node_modules/@types/node/util.d.ts",
+        "../../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../node_modules/@types/node/crypto.d.ts": [
+        "../../node_modules/@types/node/stream.d.ts",
+        "../../node_modules/@types/node/util.d.ts",
+        "../../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../node_modules/@types/node/tls.d.ts": [
+        "../../node_modules/@types/node/crypto.d.ts",
+        "../../node_modules/@types/node/dns.d.ts",
+        "../../node_modules/@types/node/net.d.ts",
+        "../../node_modules/@types/node/stream.d.ts",
+        "../../node_modules/@types/node/util.d.ts",
+        "../../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../node_modules/@types/node/https.d.ts": [
+        "../../node_modules/@types/node/tls.d.ts",
+        "../../node_modules/@types/node/events.d.ts",
+        "../../node_modules/@types/node/http.d.ts",
+        "../../node_modules/@types/node/url.d.ts",
+        "../../node_modules/@types/node/util.d.ts",
+        "../../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../node_modules/@types/node/http2.d.ts": [
+        "../../node_modules/@types/node/events.d.ts",
+        "../../node_modules/@types/node/fs.d.ts",
+        "../../node_modules/@types/node/net.d.ts",
+        "../../node_modules/@types/node/stream.d.ts",
+        "../../node_modules/@types/node/tls.d.ts",
+        "../../node_modules/@types/node/url.d.ts",
+        "../../node_modules/@types/node/http.d.ts",
+        "../../node_modules/@types/node/util.d.ts",
+        "../../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../node_modules/@types/node/dgram.d.ts": [
+        "../../node_modules/@types/node/net.d.ts",
+        "../../node_modules/@types/node/dns.d.ts",
+        "../../node_modules/@types/node/events.d.ts",
+        "../../node_modules/@types/node/util.d.ts",
+        "../../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../node_modules/@types/node/dns.d.ts": [
+        "../../node_modules/@types/node/util.d.ts",
+        "../../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../node_modules/@types/node/net.d.ts": [
+        "../../node_modules/@types/node/stream.d.ts",
+        "../../node_modules/@types/node/events.d.ts",
+        "../../node_modules/@types/node/dns.d.ts",
+        "../../node_modules/@types/node/util.d.ts",
+        "../../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../node_modules/@types/node/tty.d.ts": [
+        "../../node_modules/@types/node/net.d.ts",
+        "../../node_modules/@types/node/util.d.ts",
+        "../../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../node_modules/@types/node/process.d.ts": [
+        "../../node_modules/@types/node/tty.d.ts",
+        "../../node_modules/@types/node/util.d.ts",
+        "../../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../node_modules/@types/node/http.d.ts": [
+        "../../node_modules/@types/node/events.d.ts",
+        "../../node_modules/@types/node/stream.d.ts",
+        "../../node_modules/@types/node/url.d.ts",
+        "../../node_modules/@types/node/net.d.ts",
+        "../../node_modules/@types/node/util.d.ts",
+        "../../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../node_modules/@types/node/domain.d.ts": [
+        "../../node_modules/@types/node/events.d.ts",
+        "../../node_modules/@types/node/util.d.ts",
+        "../../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../node_modules/@types/node/events.d.ts": [
+        "../../node_modules/@types/node/util.d.ts",
+        "../../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../node_modules/@types/node/worker_threads.d.ts": [
+        "../../node_modules/@types/node/vm.d.ts",
+        "../../node_modules/@types/node/events.d.ts",
+        "../../node_modules/@types/node/stream.d.ts",
+        "../../node_modules/@types/node/util.d.ts",
+        "../../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../node_modules/@types/node/stream.d.ts": [
+        "../../node_modules/@types/node/events.d.ts",
+        "../../node_modules/@types/node/util.d.ts",
+        "../../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../node_modules/@types/node/zlib.d.ts": [
+        "../../node_modules/@types/node/stream.d.ts",
+        "../../node_modules/@types/node/util.d.ts",
+        "../../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../node_modules/@types/node/v8.d.ts": [
+        "../../node_modules/@types/node/stream.d.ts",
+        "../../node_modules/@types/node/util.d.ts",
+        "../../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../node_modules/@types/node/readline.d.ts": [
+        "../../node_modules/@types/node/events.d.ts",
+        "../../node_modules/@types/node/stream.d.ts",
+        "../../node_modules/@types/node/util.d.ts",
+        "../../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../node_modules/@types/node/repl.d.ts": [
+        "../../node_modules/@types/node/readline.d.ts",
+        "../../node_modules/@types/node/vm.d.ts",
+        "../../node_modules/@types/node/util.d.ts",
+        "../../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../node_modules/@types/node/fs.d.ts": [
+        "../../node_modules/@types/node/stream.d.ts",
+        "../../node_modules/@types/node/events.d.ts",
+        "../../node_modules/@types/node/url.d.ts",
+        "../../node_modules/@types/node/util.d.ts",
+        "../../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../node_modules/@types/node/inspector.d.ts": [
+        "../../node_modules/@types/node/events.d.ts",
+        "../../node_modules/@types/node/util.d.ts",
+        "../../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../node_modules/@types/node/module.d.ts": [
+        "../../node_modules/@types/node/util.d.ts",
+        "../../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../node_modules/@types/node/os.d.ts": [
+        "../../node_modules/@types/node/util.d.ts",
+        "../../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../node_modules/@types/node/path.d.ts": [
+        "../../node_modules/@types/node/util.d.ts",
+        "../../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../node_modules/@types/node/punycode.d.ts": [
+        "../../node_modules/@types/node/util.d.ts",
+        "../../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../node_modules/@types/node/querystring.d.ts": [
+        "../../node_modules/@types/node/util.d.ts",
+        "../../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../node_modules/@types/node/url.d.ts": [
+        "../../node_modules/@types/node/querystring.d.ts",
+        "../../node_modules/@types/node/util.d.ts",
+        "../../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../node_modules/@types/node/string_decoder.d.ts": [
+        "../../node_modules/@types/node/util.d.ts",
+        "../../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../node_modules/@types/node/timers.d.ts": [
+        "../../node_modules/@types/node/util.d.ts",
+        "../../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../node_modules/@types/node/trace_events.d.ts": [
+        "../../node_modules/@types/node/util.d.ts",
+        "../../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../node_modules/@types/node/util.d.ts": [
+        "../../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@types/node-fetch/externals.d.ts": [
+        "../../node_modules/@types/node/util.d.ts",
+        "../../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@types/debug/index.d.ts": [
+        "../../node_modules/@types/node/util.d.ts",
+        "../../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/deepmerge/index.d.ts": [
+        "../../node_modules/@types/node/util.d.ts",
+        "../../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/key-store/lib/index.d.ts": [
+        "../../node_modules/@types/node/util.d.ts",
+        "../../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@nofrills/scrubs/lib/Registry.d.ts": [
+        "./node_modules/@nofrills/scrubs/lib/Scrubs.d.ts",
+        "../../node_modules/@types/node/util.d.ts",
+        "../../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@nofrills/scrubs/lib/Scrubbers/index.d.ts": [
+        "./node_modules/@nofrills/scrubs/lib/Scrubbers/ArrayScrubber.d.ts",
+        "./node_modules/@nofrills/scrubs/lib/Scrubbers/KeyValueScrubber.d.ts",
+        "./node_modules/@nofrills/scrubs/lib/Scrubbers/ObjectScrubber.d.ts",
+        "./node_modules/@nofrills/scrubs/lib/Scrubbers/UrlScrubber.d.ts",
+        "../../node_modules/@types/node/util.d.ts",
+        "../../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@nofrills/scrubs/lib/Scrubbers/UrlScrubber.d.ts": [
+        "./node_modules/@nofrills/scrubs/lib/Scrubs.d.ts",
+        "../../node_modules/@types/node/util.d.ts",
+        "../../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@nofrills/scrubs/lib/Scrubbers/ObjectScrubber.d.ts": [
+        "./node_modules/@nofrills/scrubs/lib/Scrubs.d.ts",
+        "../../node_modules/@types/node/util.d.ts",
+        "../../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@nofrills/scrubs/lib/Scrubbers/KeyValueScrubber.d.ts": [
+        "./node_modules/@nofrills/scrubs/lib/Scrubs.d.ts",
+        "../../node_modules/@types/node/util.d.ts",
+        "../../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@nofrills/scrubs/lib/Scrubbers/ArrayScrubber.d.ts": [
+        "./node_modules/@nofrills/scrubs/lib/Scrubs.d.ts",
+        "../../node_modules/@types/node/util.d.ts",
+        "../../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@nofrills/scrubs/lib/Scrubs.d.ts": [
+        "../../node_modules/@types/node/util.d.ts",
+        "../../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@nofrills/lincoln/lib/LincolnEvents.d.ts": [
+        "../../node_modules/@types/node/util.d.ts",
+        "../../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@nofrills/lincoln/lib/Options.d.ts": [
+        "./node_modules/@nofrills/lincoln/lib/LincolnRegistry.d.ts",
+        "../../node_modules/@types/node/util.d.ts",
+        "../../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@nofrills/lincoln/lib/LincolnRegistry.d.ts": [
+        "./node_modules/@nofrills/collections/lib/index.d.ts",
+        "./node_modules/@nofrills/lincoln/lib/Log.d.ts",
+        "../../node_modules/@types/node/util.d.ts",
+        "../../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@nofrills/collections/lib/index.d.ts": [
+        "./node_modules/@nofrills/collections/lib/Dictionary.d.ts",
+        "./node_modules/@nofrills/collections/lib/Indexer.d.ts",
+        "./node_modules/@nofrills/collections/lib/Registry.d.ts",
+        "./node_modules/@nofrills/collections/lib/RegistryMap.d.ts",
+        "../../node_modules/@types/node/util.d.ts",
+        "../../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@nofrills/collections/lib/RegistryMap.d.ts": [
+        "./node_modules/@nofrills/collections/lib/Registry.d.ts",
+        "../../node_modules/@types/node/util.d.ts",
+        "../../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@nofrills/collections/lib/Registry.d.ts": [
+        "../../node_modules/@types/node/util.d.ts",
+        "../../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@nofrills/collections/lib/Indexer.d.ts": [
+        "../../node_modules/@types/node/util.d.ts",
+        "../../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@nofrills/collections/lib/Dictionary.d.ts": [
+        "../../node_modules/@types/node/util.d.ts",
+        "../../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@nofrills/lincoln/lib/LincolnLog.d.ts": [
+        "./node_modules/@nofrills/lincoln/lib/Log.d.ts",
+        "../../node_modules/@types/node/util.d.ts",
+        "../../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@nofrills/lincoln/lib/Log.d.ts": [
+        "./node_modules/@nofrills/lincoln/lib/LogMessageType.d.ts",
+        "../../node_modules/@types/node/util.d.ts",
+        "../../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@nofrills/lincoln/lib/LogMessageType.d.ts": [
+        "../../node_modules/@types/node/util.d.ts",
+        "../../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../node_modules/@types/node/ts3.2/globals.d.ts": [
+        "../../node_modules/@types/node/globals.d.ts",
+        "../../node_modules/@types/node/util.d.ts",
+        "../../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../../node_modules/@types/node/ts3.2/util.d.ts": [
+        "../../node_modules/@types/node/util.d.ts"
+      ],
+      "../../node_modules/@types/node/vm.d.ts": [
+        "../../node_modules/@types/node/util.d.ts",
+        "../../node_modules/@types/node/ts3.2/util.d.ts"
       ]
     },
     "semanticDiagnosticsPerFile": [
       "./node_modules/typescript/lib/lib.d.ts",
-      "./node_modules/typescript/lib/lib.es5.d.ts",
-      "./node_modules/typescript/lib/lib.es2015.d.ts",
-      "./node_modules/typescript/lib/lib.es2016.d.ts",
-      "./node_modules/typescript/lib/lib.es2017.d.ts",
-      "./node_modules/typescript/lib/lib.es2018.d.ts",
-      "./node_modules/typescript/lib/lib.dom.d.ts",
-      "./node_modules/typescript/lib/lib.webworker.importscripts.d.ts",
-      "./node_modules/typescript/lib/lib.scripthost.d.ts",
-      "./node_modules/typescript/lib/lib.es2015.core.d.ts",
-      "./node_modules/typescript/lib/lib.es2015.collection.d.ts",
-      "./node_modules/typescript/lib/lib.es2015.generator.d.ts",
-      "./node_modules/typescript/lib/lib.es2015.iterable.d.ts",
-      "./node_modules/typescript/lib/lib.es2015.promise.d.ts",
-      "./node_modules/typescript/lib/lib.es2015.proxy.d.ts",
-      "./node_modules/typescript/lib/lib.es2015.reflect.d.ts",
-      "./node_modules/typescript/lib/lib.es2015.symbol.d.ts",
-      "./node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts",
-      "./node_modules/typescript/lib/lib.es2016.array.include.d.ts",
-      "./node_modules/typescript/lib/lib.es2017.object.d.ts",
-      "./node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts",
-      "./node_modules/typescript/lib/lib.es2017.string.d.ts",
-      "./node_modules/typescript/lib/lib.es2017.intl.d.ts",
-      "./node_modules/typescript/lib/lib.es2017.typedarrays.d.ts",
-      "./node_modules/typescript/lib/lib.es2018.asyncgenerator.d.ts",
-      "./node_modules/typescript/lib/lib.es2018.asynciterable.d.ts",
-      "./node_modules/typescript/lib/lib.es2018.intl.d.ts",
-      "./node_modules/typescript/lib/lib.es2018.promise.d.ts",
-      "./node_modules/typescript/lib/lib.es2018.regexp.d.ts",
-      "./node_modules/typescript/lib/lib.esnext.intl.d.ts",
-      "./node_modules/typescript/lib/lib.esnext.bigint.d.ts",
       "../../node_modules/@types/node/globals.d.ts",
       "../../node_modules/@types/node/assert.d.ts",
       "../../node_modules/@types/node/async_hooks.d.ts",
@@ -2081,7 +2050,37 @@
       "./src/TinyVaultSecret.ts",
       "./src/TinyVaultKeyStore.ts",
       "./src/TinyVault.ts",
-      "./src/index.ts"
+      "./src/index.ts",
+      "./node_modules/typescript/lib/lib.es2015.d.ts",
+      "./node_modules/typescript/lib/lib.es2016.d.ts",
+      "./node_modules/typescript/lib/lib.es2017.d.ts",
+      "./node_modules/typescript/lib/lib.es2018.d.ts",
+      "./node_modules/typescript/lib/lib.esnext.bigint.d.ts",
+      "./node_modules/typescript/lib/lib.esnext.intl.d.ts",
+      "./node_modules/typescript/lib/lib.es2018.regexp.d.ts",
+      "./node_modules/typescript/lib/lib.es2018.promise.d.ts",
+      "./node_modules/typescript/lib/lib.es2018.intl.d.ts",
+      "./node_modules/typescript/lib/lib.es2018.asynciterable.d.ts",
+      "./node_modules/typescript/lib/lib.es2018.asyncgenerator.d.ts",
+      "./node_modules/typescript/lib/lib.es2017.typedarrays.d.ts",
+      "./node_modules/typescript/lib/lib.es2017.intl.d.ts",
+      "./node_modules/typescript/lib/lib.es2017.string.d.ts",
+      "./node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts",
+      "./node_modules/typescript/lib/lib.es2017.object.d.ts",
+      "./node_modules/typescript/lib/lib.es2016.array.include.d.ts",
+      "./node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts",
+      "./node_modules/typescript/lib/lib.es2015.symbol.d.ts",
+      "./node_modules/typescript/lib/lib.es2015.reflect.d.ts",
+      "./node_modules/typescript/lib/lib.es2015.proxy.d.ts",
+      "./node_modules/typescript/lib/lib.es2015.promise.d.ts",
+      "./node_modules/typescript/lib/lib.es2015.iterable.d.ts",
+      "./node_modules/typescript/lib/lib.es2015.generator.d.ts",
+      "./node_modules/typescript/lib/lib.es2015.collection.d.ts",
+      "./node_modules/typescript/lib/lib.es2015.core.d.ts",
+      "./node_modules/typescript/lib/lib.scripthost.d.ts",
+      "./node_modules/typescript/lib/lib.webworker.importscripts.d.ts",
+      "./node_modules/typescript/lib/lib.dom.d.ts",
+      "./node_modules/typescript/lib/lib.es5.d.ts"
     ]
   },
   "version": "3.6.4"

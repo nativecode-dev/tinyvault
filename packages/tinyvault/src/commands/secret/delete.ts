@@ -14,17 +14,19 @@ export class SecretDeleteCommand implements CommandModule {
   async handler(args: Arguments) {
     const vault = await createVault()
 
-    const result = await interact().interactive({
-      interactive: {
-        default: !args.key,
-      },
-      key: {
-        choices: vault.list(),
-        describe: 'secret',
-        prompt: 'always',
-        type: 'list',
-      },
-    })
+    const result = await Promise.resolve(
+      interact().interactive({
+        interactive: {
+          default: !args.key,
+        },
+        key: {
+          choices: vault.list(),
+          describe: 'secret',
+          prompt: 'always',
+          type: 'list',
+        },
+      }),
+    )
 
     await vault.delete(result.key)
   }

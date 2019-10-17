@@ -69,7 +69,7 @@ export class ConfigureCommand implements CommandModule {
       },
     }
 
-    const result = await interactive().interactive(opts)
+    const result = await Promise.resolve(interactive().interactive(opts))
     const filename = fs.join(process.cwd(), '.tinyvault.json')
 
     await fs.save(filename, {
