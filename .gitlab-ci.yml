@@ -1,7 +1,9 @@
 image: node:latest
 
 stages:
-  - publish
+  - canary
+  - pre-release
+  - release
 
 before_script:
   - git submodule update --init --recursive
@@ -22,11 +24,11 @@ continuous:
     - cli-tasks ci:canary
 
 prerelease:
-  stage: pre-publish
+  stage: pre-release
   only:
     - develop
   script:
-    - cli-tasks ci:prepublish
+    - cli-tasks ci:prerelease
 
 release:
   stage: release
