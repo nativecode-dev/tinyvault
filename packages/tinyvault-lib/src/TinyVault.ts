@@ -38,11 +38,7 @@ export class TinyVault {
   }
 }
 
-export async function CREATE_VAULT(
-  profile: string,
-  vaultPassword: string,
-  options: Partial<TinyVaultOptions>,
-): Promise<TinyVault> {
+export async function CREATE_VAULT(profile: string, vaultPassword: string, options: Partial<TinyVaultOptions>): Promise<TinyVault> {
   const remote = new TinyVaultRemote<KeysData<string>>(options)
   await remote.initialize()
 

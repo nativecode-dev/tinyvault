@@ -28,6 +28,9 @@
     "lib": "bin",
     "test": "specs"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "build": "tsc --project tsconfig.json",
     "postbuild": "cli-shebang && pkg . --out-path binaries",
@@ -35,9 +38,6 @@
   },
   "pkg": {
     "scripts": "bin/**/*.js"
-  },
-  "publishConfig": {
-    "access": "public"
   },
   "dependencies": {
     "@nofrills/fs": "^7.0.0",

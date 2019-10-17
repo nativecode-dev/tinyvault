@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "description": "Tiny Vault",
   "license": "MIT",
+  "private": true,
   "repository": {
     "type": "git",
     "url": "git@gitssh.nativecode.net:opensource/tinyvault.git"
@@ -18,7 +19,6 @@
     "portable"
   ],
   "main": "index.js",
-  "private": true,
   "scripts": {
     "build": "cli-tasks build",
     "canary": "cli-tasks canary",
