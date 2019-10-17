@@ -13,7 +13,8 @@
   "homepage": "https://git.nativecode.net/opensource/tinyvault/tree/master/packages/tinyvault-lib#readme",
   "author": "opensource@nativecode.com",
   "keywords": [
-    "tinyvault"
+    "tinyvault",
+    "tinyvault-lib"
   ],
   "main": "lib/index.js",
   "files": [

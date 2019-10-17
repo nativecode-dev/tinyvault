@@ -13,8 +13,8 @@
   "homepage": "https://git.nativecode.net/opensource/tinyvault/tree/master/packages/tinyvault#readme",
   "author": "opensource@nativecode.com",
   "keywords": [
-    "tiny",
-    "vault",
+    "tinyvault",
+    "tinyvault-cli",
     "cli"
   ],
   "bin": {
