@@ -36,6 +36,9 @@
   "pkg": {
     "scripts": "bin/**/*.js"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "@nofrills/fs": "^7.0.0",
     "@nofrills/lincoln": "^6.0.0",

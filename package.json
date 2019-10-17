@@ -18,6 +18,7 @@
     "portable"
   ],
   "main": "index.js",
+  "private": true,
   "scripts": {
     "build": "cli-tasks build",
     "canary": "cli-tasks canary",
