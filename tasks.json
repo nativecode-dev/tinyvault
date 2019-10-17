@@ -6,38 +6,15 @@
     "build": [
       "[bootstrap]",
       "[lint]",
-      "lerna run build"
-    ],
-    "ci:compile": [
-      "[build]"
-    ],
-    "ci:install": [
-      "npm install",
-      "[bootstrap]",
       "[compile]"
-    ],
-    "ci:canary": [
-      "[ci:install]",
-      "[ci:test]",
-      "lerna publish --conventional-commits --conventional-graduate --canary --yes"
-    ],
-    "ci:prerelease": [
-      "[ci:install]",
-      "[ci:test]",
-      "lerna publish --conventional-commits --conventional-prerelease --yes"
-    ],
-    "ci:release": [
-      "[ci:install]",
-      "[ci:test]",
-      "lerna publish --conventional-commits --yes"
-    ],
-    "ci:test": [
-      "nyc mocha --opts mocha.opts --reporter spec"
     ],
     "clean": [
       "rimraf packages/*/bin",
       "rimraf packages/*/lib",
       "rimraf **/*.tsbuildinfo"
+    ],
+    "compile": [
+      "lerna run build"
     ],
     "lint": [
       "jsonsort *.json",
@@ -48,8 +25,26 @@
       "[build]",
       "nyc mocha --opts mocha.opts"
     ],
+    "test:ci": [
+      "npm install",
+      "[bootstrap]",
+      "[compile]",
+      "nyc mocha --opts mocha.opts --reporter spec"
+    ],
     "watch": [
       "lerna run --parallel watch"
+    ],
+    "canary": [
+      "[test:ci]",
+      "lerna publish --conventional-commits --conventional-graduate --canary --yes"
+    ],
+    "prerelease": [
+      "[test:ci]",
+      "lerna publish --conventional-commits --conventional-prerelease --yes"
+    ],
+    "release": [
+      "[test:ci]",
+      "lerna publish --conventional-commits --yes"
     ]
   }
 }

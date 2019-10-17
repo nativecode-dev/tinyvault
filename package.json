@@ -26,7 +26,10 @@
     "test": "cli-tasks test",
     "tinyvault": "node packages/tinyvault/bin/index.js",
     "tinyvault:ts": "ts-node packages/tinyvault/src/index.ts",
-    "watch": "cli-tasks watch"
+    "watch": "cli-tasks watch",
+    "canary": "cli-tasks canary",
+    "pre-release": "cli-tasks prerelease",
+    "release": "cli-tasks release"
   },
   "nyc": {
     "all": true,
