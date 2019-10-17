@@ -28,7 +28,7 @@
         "*.md"
       ],
       "loglevel": "verbose",
-      "message": "[skip:ci] publish",
+      "message": "[skip ci] publish",
       "yes": true
     },
     "run": {
