@@ -1,0 +1,15 @@
+{
+  "tasks": {
+    "build": [
+      "tsc --project tsconfig.json"
+    ],
+    "postbuild": [
+      "cli-shebang",
+      "pkg package.json --debug --out-path ../../binaries",
+      "chmod +x ../../binaries/*"
+    ],
+    "watch": [
+      "tsc --project tsconfig.json --watch"
+    ]
+  }
+}

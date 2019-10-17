@@ -32,9 +32,8 @@
     "access": "public"
   },
   "scripts": {
-    "build": "tsc --project tsconfig.json",
-    "postbuild": "cli-shebang && pkg . --out-path ../../binaries",
-    "watch": "tsc --project tsconfig.json --watch"
+    "build": "cli-tasks build",
+    "watch": "cli-tasks watch"
   },
   "pkg": {
     "scripts": "bin/**/*.js"
