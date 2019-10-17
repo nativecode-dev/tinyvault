@@ -5,7 +5,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "gitssh.nativecode.net/opensource/tinyvault.git"
+    "url": "git@gitssh.nativecode.net/opensource/tinyvault.git"
   },
   "bugs": {
     "url": "https://git.nativecode.net/opensource/tinyvault/issues"
