@@ -5,8 +5,8 @@ import 'pouchdb-upsert'
 
 import DefaultCommand from './commands/default'
 
-process.on('uncaughtException', error => console.log(error))
-process.on('unhandledRejection', reason => console.log(reason))
+process.on('uncaughtException', (error: Error) => console.log(error))
+process.on('unhandledRejection', (reason: {} | null | undefined) => console.log(reason))
 
 yargs
   .scriptName('tinyvault')
