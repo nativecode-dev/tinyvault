@@ -22,7 +22,6 @@
     ],
     "lint": [
       "jsonsort *.json",
-      "jsonsort executables/*/*.json",
       "jsonsort packages/*/*.json"
     ],
     "prerelease": [

@@ -1,9 +1,41 @@
 {
   "command": {
+    "publish": {
+      "allowBranch": [
+        "master",
+        "develop",
+        "feature/"
+      ],
+      "conventionalCommits": true,
+      "ignoreChanges": [
+        ".ci-env.sh",
+        ".editorconfig",
+        ".gitignore",
+        ".gitlab-ci.yml",
+        ".gitmodules",
+        ".npmrc",
+        ".nycrc.json",
+        ".prettierrc",
+        "docker-compose.yaml",
+        "lerna.json",
+        "LICENSE",
+        "mocha.opts",
+        "package.json",
+        "tasks.json",
+        "tsconfig.json",
+        "tsconfig.settings.json",
+        "tslint.json",
+        "*.md"
+      ],
+      "loglevel": "verbose",
+      "message": "[skip:ci] publish",
+      "yes": true
+    },
     "run": {
       "stream": true
     }
   },
+  "loglevel": "error",
   "packages": [
     "packages/*"
   ],

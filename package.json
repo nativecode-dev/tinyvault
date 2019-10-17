@@ -31,24 +31,6 @@
     "tinyvault:ts": "ts-node packages/tinyvault/src/index.ts",
     "watch": "cli-tasks watch"
   },
-  "nyc": {
-    "all": true,
-    "exclude": [
-      "node_modules",
-      "**/specs/**/*.spec.ts"
-    ],
-    "extension": [
-      ".ts"
-    ],
-    "include": [
-      "packages/*/src/**/*.ts"
-    ],
-    "instrument": true,
-    "report-dir": ".cache/coverage",
-    "reporter": "text",
-    "sourceMap": true,
-    "temp-directory": ".cache/nyc"
-  },
   "devDependencies": {
     "@nofrills/tasks": "^9.0.2",
     "@types/chai": "^4.2.3",
