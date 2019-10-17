@@ -29,7 +29,9 @@
       "jsonsort *.json",
       "jsonsort packages/*/*.json",
       "tslint --project packages/tinyvault/tsconfig.json --config tslint.json",
-      "tslint --project packages/tinyvault-lib/tsconfig.json --config tslint.json"
+      "tslint --project packages/tinyvault-lib/tsconfig.json --config tslint.json",
+      "prettier --loglevel silent --write \"packages/*/specs/**/*.ts\"",
+      "prettier --loglevel silent --write \"packages/*/src/**/*.ts\""
     ],
     "prerelease": [
       "[ci]",
