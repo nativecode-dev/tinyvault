@@ -33,7 +33,7 @@
   },
   "scripts": {
     "build": "tsc --project tsconfig.json",
-    "postbuild": "cli-shebang && pkg . --out-path binaries",
+    "postbuild": "cli-shebang && pkg . --out-path ../../binaries",
     "watch": "tsc --project tsconfig.json --watch"
   },
   "pkg": {
