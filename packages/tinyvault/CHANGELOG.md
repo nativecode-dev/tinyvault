@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.1.0](https://gitssh.nativecode.net/opensource/tinyvault/compare/@nofrills/tinyvault@0.1.0-next.2...@nofrills/tinyvault@0.1.0) (2019-10-17)
+
+
+### Bug Fixes
+
+* update keywords ([b9e4196](https://gitssh.nativecode.net/opensource/tinyvault/commits/b9e4196d06ca3080b7c72de9fd458a7c0ea055fa))
+
+
+
+
+
 ## 0.0.1 (2019-10-17)
 
 
