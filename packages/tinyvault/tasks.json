@@ -1,12 +1,9 @@
 {
   "tasks": {
     "build": [
-      "tsc --project tsconfig.json"
-    ],
-    "postbuild": [
-      "cli-shebang",
-      "pkg package.json --debug --out-path ../../binaries",
-      "chmod +x ../../binaries/*"
+      "tsc --project tsconfig.json",
+      "rollup bin/index.js --file dist/bundle.js --format cjs",
+      "nexe dist/bundle.js -o ../../binaries/tinyvault"
     ],
     "watch": [
       "tsc --project tsconfig.json --watch"
