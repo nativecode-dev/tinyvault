@@ -11,7 +11,7 @@ export class SecretListCommand implements CommandModule {
 
   async handler(args: Arguments) {
     const vault = await createVault()
-    vault.list().forEach(key => console.log(key))
+    vault.list().forEach((key: string) => console.log(key))
   }
 }
 
