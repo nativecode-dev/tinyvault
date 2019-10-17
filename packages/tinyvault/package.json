@@ -30,8 +30,11 @@
   },
   "scripts": {
     "build": "tsc --project tsconfig.json",
-    "postbuild": "cli-shebang",
+    "postbuild": "cli-shebang && pkg . --out-path binaries",
     "watch": "tsc --project tsconfig.json --watch"
+  },
+  "pkg": {
+    "scripts": "bin/**/*.js"
   },
   "dependencies": {
     "@nofrills/fs": "^7.0.0",
@@ -58,6 +61,7 @@
     "@types/yargs-interactive": "^2.1.0",
     "chai": "^4.2.0",
     "chai-as-promised": "^7.1.1",
+    "pkg": "^4.4.0",
     "typescript": "^3.6.4"
   }
 }
