@@ -5,12 +5,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nativecode-dev/tinyvault.git"
+    "url": "git.nativecode.net/opensource/tinyvault.git"
   },
   "bugs": {
-    "url": "https://github.com/nativecode-dev/tinyvault/issues"
+    "url": "https://git.nativecode.net/opensource/tinyvault/issues"
   },
-  "homepage": "https://github.com/nativecode-dev/tinyvault/tree/master/packages/tinyvault-lib#readme",
+  "homepage": "https://git.nativecode.net/opensource/tinyvault/tree/master/packages/tinyvault-lib#readme",
   "author": "opensource@nativecode.com",
   "keywords": [
     "tinyvault"
