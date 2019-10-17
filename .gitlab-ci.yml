@@ -25,7 +25,7 @@ continuous:
     - npm run canary
   artifacts:
     paths:
-      - packages/tinyvault/binaries
+      - binaries
 
 prerelease:
   stage: pre-release
@@ -35,7 +35,7 @@ prerelease:
     - npm run pre-release
   artifacts:
     paths:
-      - packages/tinyvault/binaries
+      - binaries
 
 release:
   stage: release
@@ -45,4 +45,4 @@ release:
     - npm run release
   artifacts:
     paths:
-      - packages/tinyvault/binaries
+      - binaries
