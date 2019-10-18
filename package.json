@@ -19,6 +19,11 @@
     "portable"
   ],
   "main": "index.js",
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
   "scripts": {
     "build": "cli-tasks build",
     "canary": "cli-tasks canary",

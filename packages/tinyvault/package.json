@@ -1,8 +1,11 @@
 {
   "name": "@nofrills/tinyvault",
-  "version": "0.1.1",
+  "version": "0.2.0-next.1",
   "description": "Tiny Vault CLI",
   "license": "MIT",
+  "engines": {
+    "node": ">=8.0.0"
+  },
   "repository": {
     "type": "git",
     "url": "git@gitssh.nativecode.net:opensource/tinyvault.git"
@@ -32,17 +35,13 @@
     "access": "public"
   },
   "scripts": {
-    "build": "tsc --project tsconfig.json",
-    "postbuild": "cli-shebang && pkg . --out-path ../../binaries",
-    "watch": "tsc --project tsconfig.json --watch"
-  },
-  "pkg": {
-    "scripts": "bin/**/*.js"
+    "build": "cli-tasks build",
+    "watch": "cli-tasks watch"
   },
   "dependencies": {
     "@nofrills/fs": "^7.0.0",
     "@nofrills/lincoln": "^6.0.0",
-    "@nofrills/tinyvault-lib": "^0.0.3",
+    "@nofrills/tinyvault-lib": "^0.0.3-next.0",
     "pouchdb": "^7.1.1",
     "pouchdb-adapter-http": "^7.1.1",
     "pouchdb-adapter-memory": "^7.1.1",
@@ -62,9 +61,11 @@
     "@types/pouchdb-upsert": "^2.2.6",
     "@types/yargs": "^13.0.3",
     "@types/yargs-interactive": "^2.1.0",
+    "@zeit/ncc": "^0.20.5",
     "chai": "^4.2.0",
     "chai-as-promised": "^7.1.1",
-    "pkg": "^4.4.0",
+    "cross-env": "^6.0.3",
+    "nexe": "^3.3.2",
     "typescript": "^3.6.4"
   }
 }

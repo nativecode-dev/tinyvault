@@ -1,0 +1,12 @@
+{
+  "tasks": {
+    "build": [
+      "tsc --project tsconfig.json",
+      "ncc build bin/index.js --minify --out dist",
+      "nexe dist/index.js --output ../../binaries/tinyvault --target linux-x64"
+    ],
+    "watch": [
+      "tsc --project tsconfig.json --watch"
+    ]
+  }
+}
